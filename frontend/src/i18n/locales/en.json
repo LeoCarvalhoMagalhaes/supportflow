@@ -1,0 +1,95 @@
+{
+  "app": {
+    "name": "SUPPORTFLOW",
+    "description": "Ticket management system"
+  },
+  "home": {
+    "welcome": "Welcome to SUPPORTFLOW",
+    "description": "Manage your support tickets in a simple, organized and efficient way.",
+    "login": "Sign in"
+  },
+  "auth": {
+    "login": {
+      "title": "Sign in to your account",
+      "description": "Access the system to manage your tickets.",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Sign in",
+      "loading": "Signing in...",
+      "error": "Invalid email or password.",
+      "noAccount": "Don't have an account yet?",
+      "register": "Create account"
+    },
+    "register": {
+      "title": "Create your account",
+      "description": "Sign up to start managing your tickets.",
+      "name": "Name",
+      "namePlaceholder": "Enter your name",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Create account",
+      "loading": "Creating account...",
+      "error": "Could not create the account.",
+      "success": "Account created successfully! Redirecting to login...",
+      "haveAccount": "Already have an account?",
+      "login": "Sign in"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "description": "Manage your support tickets.",
+    "logout": "Sign out",
+    "loading": "Loading tickets...",
+    "stats": {
+      "total": "Total tickets",
+      "open": "Open",
+      "inProgress": "In progress",
+      "completed": "Completed"
+    },
+    "empty": {
+      "title": "No tickets found",
+      "description": "You don't have any tickets registered yet."
+    }
+  },
+  "tickets": {
+    "form": {
+      "title": "Create new ticket",
+      "titleLabel": "Title",
+      "titlePlaceholder": "Briefly describe the problem",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "Describe the problem in more detail",
+      "priorityLabel": "Priority",
+      "submit": "Create ticket",
+      "loading": "Creating...",
+      "error": "Could not create the ticket."
+    },
+    "filters": {
+      "status": "Filter by status",
+      "priority": "Filter by priority",
+      "all": "All"
+    },
+    "edit": {
+      "title": "Edit ticket",
+      "button": "Edit",
+      "save": "Save changes",
+      "saving": "Saving...",
+      "cancel": "Cancel",
+      "error": "Could not update the ticket."
+    },
+    "delete": {
+      "button": "Delete",
+      "deleting": "Deleting...",
+      "confirm": "Are you sure you want to delete this ticket?"
+    },
+    "priority": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    },
+    "status": {
+      "open": "Open",
+      "in_progress": "In progress",
+      "completed": "Completed"
+    }
+  }
+}

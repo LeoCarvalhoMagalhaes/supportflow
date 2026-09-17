@@ -1,0 +1,95 @@
+{
+  "app": {
+    "name": "SUPPORTFLOW",
+    "description": "Sistema de gerenciamento de tickets"
+  },
+  "home": {
+    "welcome": "Bem-vindo ao SUPPORTFLOW",
+    "description": "Gerencie seus tickets de suporte de forma simples, organizada e eficiente.",
+    "login": "Entrar"
+  },
+  "auth": {
+    "login": {
+      "title": "Entrar na sua conta",
+      "description": "Acesse o sistema para gerenciar seus tickets.",
+      "email": "E-mail",
+      "password": "Senha",
+      "submit": "Entrar",
+      "loading": "Entrando...",
+      "error": "E-mail ou senha inválidos.",
+      "noAccount": "Ainda não possui uma conta?",
+      "register": "Criar conta"
+    },
+    "register": {
+      "title": "Criar sua conta",
+      "description": "Cadastre-se para começar a gerenciar seus tickets.",
+      "name": "Nome",
+      "namePlaceholder": "Digite seu nome",
+      "email": "E-mail",
+      "password": "Senha",
+      "submit": "Criar conta",
+      "loading": "Criando conta...",
+      "error": "Não foi possível criar a conta.",
+      "success": "Conta criada com sucesso! Redirecionando para o login...",
+      "haveAccount": "Já possui uma conta?",
+      "login": "Entrar"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "description": "Gerencie seus tickets de suporte.",
+    "logout": "Sair",
+    "loading": "Carregando tickets...",
+    "stats": {
+      "total": "Total de tickets",
+      "open": "Abertos",
+      "inProgress": "Em andamento",
+      "completed": "Concluídos"
+    },
+    "empty": {
+      "title": "Nenhum ticket encontrado",
+      "description": "Você ainda não possui tickets cadastrados."
+    }
+  },
+  "tickets": {
+    "form": {
+      "title": "Criar novo ticket",
+      "titleLabel": "Título",
+      "titlePlaceholder": "Descreva brevemente o problema",
+      "descriptionLabel": "Descrição",
+      "descriptionPlaceholder": "Descreva o problema com mais detalhes",
+      "priorityLabel": "Prioridade",
+      "submit": "Criar ticket",
+      "loading": "Criando...",
+      "error": "Não foi possível criar o ticket."
+    },
+    "filters": {
+      "status": "Filtrar por status",
+      "priority": "Filtrar por prioridade",
+      "all": "Todos"
+    },
+    "edit": {
+      "title": "Editar ticket",
+      "button": "Editar",
+      "save": "Salvar alterações",
+      "saving": "Salvando...",
+      "cancel": "Cancelar",
+      "error": "Não foi possível atualizar o ticket."
+    },
+    "delete": {
+      "button": "Excluir",
+      "deleting": "Excluindo...",
+      "confirm": "Tem certeza que deseja excluir este ticket?"
+    },
+    "priority": {
+      "low": "Baixa",
+      "medium": "Média",
+      "high": "Alta"
+    },
+    "status": {
+      "open": "Aberto",
+      "in_progress": "Em andamento",
+      "completed": "Concluído"
+    }
+  }
+}
